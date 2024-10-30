@@ -1,0 +1,10 @@
+#To find second max number in a list
+n = int(input())
+arr = map(int, input().split())
+a=list(arr)
+a.sort()
+print(a)
+b=list(set(a))
+b.sort()
+print(b)
+print(b[-2])
